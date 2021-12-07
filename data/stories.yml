@@ -1,0 +1,55 @@
+version: "2.0"
+stories:
+- story: greeting
+  steps:
+  - intent: greet
+  - action: utter_greet
+- story: ask_exist
+  steps:
+  - intent: exist
+  - action: utter_exist1
+  - action: utter_exist2
+- story: ask_descrip
+  steps:
+  - intent: descrip
+  - action: utter_reference
+  - intent: ref_produit
+  - action: action_product_details
+- story: livraison
+  steps:
+  - intent: ask_livraison
+  - action: utter_livraison
+- story: retour
+  steps:
+  - intent: ask_retour
+  - action: utter_retour
+  - intent: code_cmd
+  - action: utter_conf_retour
+- story: presentation
+  steps:
+  - intent: ask_general
+  - action: utter_general
+- story: place
+  steps:
+  - intent: ask_local
+  - action: utter_local
+- story: incompréhensif
+  steps:
+  - intent: incomp
+  - action: utter_incomp
+- story: identite
+  steps:
+  - intent: ask_id
+  - action: utter_id
+- story: stop
+  steps:
+  - intent: fin
+  - action: utter_fin
+- story: langue
+  steps:
+  - intent: lang
+  - action: utter_lang
+- story: service_client
+  steps:
+  - intent: service_client
+  - action: utter_service_client
