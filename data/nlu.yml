@@ -405,6 +405,7 @@ nlu:
     - n7eb nechrih
     - n7eb n!"addi commande
     - N7eb nechri lo3ba
+    - je veux acheter brabi
 - intent: nom_client
   examples: |
     - [Hajer chakroun](name)
@@ -1607,6 +1608,7 @@ nlu:
     - chkounou tictak
     - [chesmk](name)
     - chkounk tictak
+    - w enti enssen ta7ki m3aya ?
 - intent: lang
   examples: |
     - ta7ki 3arbi
@@ -1621,6 +1623,7 @@ nlu:
     - ama hak ta7ki bil arbi
     - hak ta7ki b tounsi
     - ta7ki bil 3arbi ?
+    - hak ta7ki 3arbi
 - intent: dispo
   examples: |
     - chfama dispo
