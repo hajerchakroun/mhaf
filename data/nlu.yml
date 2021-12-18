@@ -405,6 +405,10 @@ nlu:
     - n7eb nechrih
     - n7eb n!"addi commande
     - N7eb nechri lo3ba
+    - je veux acheter brabi
+    - [cmd](cmd)
+    - je veux cmmander
+    - n7eb n3addi cmd
 - intent: nom_client
   examples: |
     - [Hajer chakroun](name)
@@ -1439,6 +1443,7 @@ nlu:
     - w twasslou l dar wale
     - ta3mlo livraison
     - livraison kifech
+    - twasslo l dar
 - intent: ask_retour
   examples: |
     - N7eb Nraj3 el produit
@@ -1463,6 +1468,7 @@ nlu:
     - jeni produit endommagé
     - jetni el commande w produit m9atta3
     - produit mkasser
+    - jeni produit mkasser
 - intent: code_cmd
   examples: |
     - [CMD 123456789](cmd)
@@ -1475,6 +1481,7 @@ nlu:
     - [CMD CAR2P](cmd)
     - [cmd-ghjk](cmd)
     - [cmd-dfghj](cmd)
+    - [cmd 963ghjk](cmd)
 - intent: ask_general
   examples: |
     - Ech tbi3o ?
@@ -1491,6 +1498,7 @@ nlu:
     - chnawa nechri
     - chkounkom w ech tbi3o
     - Ech tbi3ou
+    - ech tbi3
 - intent: ask_local
   examples: |
     - وين بلاصتكم؟
@@ -1506,6 +1514,7 @@ nlu:
     - 3andkom local?
     - win local
     - win entom
+    - 3andkom local wala boutique
 - intent: incomp
   examples:
   - text: |
@@ -1594,6 +1603,8 @@ nlu:
       [123](tel)
   - text: |
       [Fashion](name)
+  - text: |
+      ya bhim
 - intent: ask_id
   examples: |
     - Tictak
@@ -1607,6 +1618,7 @@ nlu:
     - chkounou tictak
     - [chesmk](name)
     - chkounk tictak
+    - w enti enssen ta7ki m3aya ?
 - intent: lang
   examples: |
     - ta7ki 3arbi
@@ -1621,6 +1633,8 @@ nlu:
     - ama hak ta7ki bil arbi
     - hak ta7ki b tounsi
     - ta7ki bil 3arbi ?
+    - hak ta7ki 3arbi
+    - ti hak ta7ki tounsi
 - intent: dispo
   examples: |
     - chfama dispo
